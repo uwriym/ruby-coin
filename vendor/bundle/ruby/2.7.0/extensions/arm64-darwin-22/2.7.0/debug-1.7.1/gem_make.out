@@ -1,0 +1,17 @@
+current directory: /Users/eoorim/Desktop/Coding/Ruby/web-app-ruby/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+/Users/eoorim/.rbenv/versions/2.7.7/bin/ruby -I /Users/eoorim/.rbenv/versions/2.7.7/lib/ruby/2.7.0 -r ./siteconf20230105-88224-vkcwhy.rb extconf.rb
+creating Makefile
+
+current directory: /Users/eoorim/Desktop/Coding/Ruby/web-app-ruby/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" clean
+
+current directory: /Users/eoorim/Desktop/Coding/Ruby/web-app-ruby/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/eoorim/Desktop/Coding/Ruby/web-app-ruby/vendor/bundle/ruby/2.7.0/gems/debug-1.7.1/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230105-88224-jkeiyx/debug
