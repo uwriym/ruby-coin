@@ -1,6 +1,25 @@
-<% la = '💦' %>
-<% cnt = 0 %>
-<% while cnt < 40%>
-	<%= la %>
-  <% cnt += 1 %>
-<% end %>
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css"></head>
+<body>
+<header>
+	<h1>Index.erb</h1>
+</header>
+<main>
+  <% la = '💦' %>
+  <% cnt = 0 %>
+  <% while cnt < 30%>
+    <%= la %>
+    <% cnt += 1 %>
+  <% end %>
+</main>
+  <% num_list = [1,2,3,4,5] %>
+  <ul>
+  <% for i in num_list %>
+      <li>
+        <%=i %>
+      </li>
+  <% end %>
+  </ul>
+
+</body>
+
